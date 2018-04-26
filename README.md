@@ -50,3 +50,5 @@ All data are simulated and generated within the included R script.
 
 # More Information
 Credit is due to Tim Marple, who helped me figure out the mixed bipartite projection problem. Much of the code in the function is his writing, I just put it in functional form. Credit is also due to the developers of igraph, whose demos and documentation made this project much easier than I initially thought it would be.
+
+Please e-mail me at dnield@berkeley.edu if you have any questions.
