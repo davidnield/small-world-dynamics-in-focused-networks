@@ -15,7 +15,7 @@ All data are simulated and generated within the included R script.
 ## Code 
 1. 01_small_world_dynamics.R: Creates mixed bipartite projection function. Extends Watts and Strogatz (1998) to varying levels of network size. Replicates the Watts and Strogatz plot for varying rewiring probabilities. Extends the Watts and Strogatz rewiring plot to compare the effects of adding focuses (10%, 10% with degree normalization, 5%, and 1%).
 
-2. 02_small_world_dynamics_presentation.R: Contains the code necessary to generate all of the figures used in the presentation, including some that are not part of the primary analysis (such as those used to illustrate network terminology). Warning: running this code will generate 15 pdfs into your working directory.
+2. 02_small_world_dynamics_presentation.R: Contains the code necessary to generate all of the figures used in the presentation (including all 15 mentioned below) including some that are not part of the primary analysis (such as those used to illustrate network terminology). Warning: running this code will generate 15 pdfs into your working directory. With the exception of one extra graph, some added graphing parameters to make titles and labels larger, and Cairo pdf export lines of code, this script is identical to the one described above.
 
 ## Results
 1. BasicNetworkPlot1.pdf: Basic 5 node, 4 edge network used to demonstrate network terminology in presentation
@@ -47,6 +47,12 @@ All data are simulated and generated within the included R script.
 14. FocusedWattsStrogatzPlot5.pdf: Changes the interval of added focuses from every 10 nodes to every 20 nodes (or 5% of the nodes).
 
 15. FocusedWattsStrogatzPlot1.pdf: Changes the interval of added focuses from every 10/20 nodes to every 100 nodes (or 1% of the nodes). Differences almost completely evaporate.
+
+## Presentation
+1. small_world_beamer.tex: When combined with the pdfs above and the .bib file and sty folder below, this tex file creates the pdf used in my presentation
+2. small_world_bib.bib: BibTex file with the three references cited in the presentation
+3. sty: Folder containing the style folders for the Metropolis theme
+4. Small World Dynamics in Focused Networks.pdf: My final project presentation.
 
 # More Information
 Credit is due to Tim Marple, who helped me figure out the mixed bipartite projection problem. Much of the code in the function is his writing, I just put it in functional form. Credit is also due to the developers of igraph, whose demos and documentation made this project much easier than I initially thought it would be.
