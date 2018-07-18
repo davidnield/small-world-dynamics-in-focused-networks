@@ -1,4 +1,4 @@
-# ps239T-final-project
+# Small World Dynamics in Focused Networks
 
 # Description
 This project contains code that investigates "small world" dynamics using simulated network data. The first part of the code contains an original function which can be used to convert mixed bipartite network graphs (where individuals are tied to both individuals and focuses) into bipartite projections (where edges are added between all individuals tied to the same focus, and the focus is deleted). Following the function is a very basic demonstration of it at work. This functionality is surprisingly not native to igraph and from what I can tell from help pages and documentation, this is the first publicly available function for creating bipartite projections from mixed bipartite network graphs.
