@@ -59,3 +59,4 @@ Credit is due to Tim Marple, who helped me figure out the mixed bipartite projec
 
 Please e-mail me at dnield@berkeley.edu if you have any questions.
 lorem ipsum
+lorem ipsum
